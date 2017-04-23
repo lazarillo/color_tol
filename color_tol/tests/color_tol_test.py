@@ -1,6 +1,6 @@
 
 import unittest
-import color_tol.core.funcs as ct
+import color_tol.funcs as ct
 
 
 class GenericPaletteTest(unittest.TestCase):

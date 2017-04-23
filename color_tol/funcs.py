@@ -6,7 +6,8 @@
 import json
 import os
 
-_DATADIR = os.path.join(os.path.dirname(__file__), '../color_data')
+#_DATADIR = 'color_tol/color_data'
+_DATADIR = os.path.join(os.path.dirname(__file__), 'color_data')
 _DATAFILE = os.path.join(_DATADIR, 'color_tol.json')
 
 with open(_DATAFILE, 'r') as color_file:

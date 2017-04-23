@@ -6,22 +6,9 @@ try:
 except(IOError, ImportError):
     long_descr = open('README.md').read()
 
-setup(
-    name='blah',
-    version=find_version('blah.py'),
-    description='Short description',
-    long_description=long_description,
-)
-
-
-=============================================
-
-
-
-
-setup(name='funniest',
+setup(name='color_tol',
       version='0.1',
-      description='The funniest joke in the world',
+      description='Optimized color schemes for data display',
       long_description=long_descr,
       classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -37,14 +24,6 @@ setup(name='funniest',
       author_email='mwilliamson@pacific.edu',
       license='MIT',
       packages=['color_tol'],
-      install_requires=[
-          'os',
-          'json'
-      ],
       test_suite='color_tol.tests',
       include_package_data=True,
-
       zip_safe=False)
-
-
-
