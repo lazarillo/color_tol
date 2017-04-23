@@ -7,7 +7,7 @@ except(IOError, ImportError):
     long_descr = open('README.md').read()
 
 setup(name='color_tol',
-      version='0.1',
+      version='0.1.1',
       description='Optimized color schemes for data display',
       long_description=long_descr,
       classifiers=[
