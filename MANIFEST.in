@@ -1,0 +1,3 @@
+include README.md
+include color_data/color_tol.json
+include docs/colourschemes.pdf

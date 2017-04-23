@@ -1,0 +1,14 @@
+
+# Python files and directories to ignore
+*.pyc
+__pycache__/
+build/
+/dist/
+/*.egg-info
+/*.egg
+
+
+
+# Apple OS cruft to ignore
+
+.DS_Store
